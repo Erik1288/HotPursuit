@@ -1,4 +1,4 @@
-package com.eric.lock.uninteruptable;
+package com.eric.lock.uninterruptable;
 
 public class Main {
     public static void main(String[] args) {
