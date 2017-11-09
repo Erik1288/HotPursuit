@@ -26,4 +26,14 @@ public class BitCalculateTest {
         // &
         // |
     }
+
+    @Test
+    public void cast() {
+        // 补码 = 源码 每一位取反 + 1
+        int a = 133;
+//        Assert.assertEquals(-1, (byte)a);
+        // https://www.cnblogs.com/it-life-nathan/p/6416378.html?utm_source=itdadao&utm_medium=referral
+        // 要了解补码
+        System.out.println((byte)a);
+    }
 }
